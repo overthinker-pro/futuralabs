@@ -17,6 +17,21 @@
   margin-left: 10px;
 }
 
+.navigation ul {
+  display: flex;
+  gap: 25px;
+  padding: 10px;
+  list-style-type: none;
+  justify-content: end;
+  font-family: "Liter", sans-serif;
+}
+.navigation ul li {
+  color: rgb(243, 243, 243);
+}
+
+
+
+/* main page */
 .homepage {
   display: flex;
   padding-bottom: 30px;
@@ -140,10 +155,10 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
-  .navigation {
+  /* .navigation {
     background-color: #eba328;
+    } */
   }
-}
 
 
 
