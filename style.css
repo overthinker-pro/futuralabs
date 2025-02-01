@@ -14,6 +14,7 @@
 
 .logo {
   width: 150px;
+  margin-left: 10px;
 }
 
 .homepage {
@@ -53,6 +54,7 @@ p {
     margin-top: 20px;
     display: flex;
     font-family: "Liter", serif;
+    justify-content: center;
     gap: 15px;
     color: whitesmoke;
 }
@@ -76,4 +78,23 @@ p {
 }
 .main-img:hover {
   scale: 1.07;
+}
+
+/* responsiveness */
+@media only screen and (min-width: 900px) {
+    .navigation {
+        padding: 20px;
+    }
+
+    .contents {
+        flex-direction: row;
+    }
+
+    .main-img {
+        width: 350px;
+    }
+
+    .texts h1 {
+        font-size: 40px;
+    }
 }
