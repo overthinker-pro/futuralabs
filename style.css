@@ -19,6 +19,7 @@
 
 .homepage {
   display: flex;
+  padding-bottom: 30px;
   background-color: #331b50;
 }
 
@@ -29,7 +30,7 @@
 }
 
 .texts {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .texts h1,
@@ -51,25 +52,25 @@ p {
 }
 
 .buttons {
-    margin-top: 20px;
-    display: flex;
-    font-family: "Liter", serif;
-    justify-content: center;
-    gap: 15px;
-    color: whitesmoke;
+  margin-top: 20px;
+  display: flex;
+  font-family: "Liter", serif;
+  justify-content: center;
+  gap: 15px;
+  color: whitesmoke;
 }
 .buttons p {
-    padding: 10px;
-    border: 1px solid white;
-    font-weight: 500;
-    border-radius: 15px;
-    transition: all 0.3s ease-in-out;
+  padding: 10px;
+  border: 1px solid white;
+  font-weight: 500;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
 }
 
 .buttons p:hover {
-    background-color: aliceblue;
-    color: #331b50;
-    cursor: pointer;
+  background-color: aliceblue;
+  color: #331b50;
+  cursor: pointer;
 }
 
 .main-img {
@@ -80,21 +81,78 @@ p {
   scale: 1.07;
 }
 
-/* responsiveness */
+.plane {
+  display: none;
+}
+
+.media {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/* responsiveness for bigger screens*/
 @media only screen and (min-width: 900px) {
-    .navigation {
-        padding: 20px;
-    }
+  .navigation {
+    padding: 20px;
+  }
 
-    .contents {
-        flex-direction: row;
-    }
+  .contents {
+    width: 100%;
+    justify-content: center; 
+    flex-direction: row;
+    padding: 15 50px; 
+  }
 
-    .main-img {
-        width: 350px;
-    }
+  .main-img {
+    width: 600px;
+    margin-left: 50px;
+    z-index: 2;
+  }
 
-    .texts h1 {
-        font-size: 40px;
-    }
+  .texts {
+    width: 400px;
+    margin-left: 40px;
+  }
+
+  .texts h1 {
+    font-size: 60px;
+    text-align: left;
+  }
+  .texts p {
+    text-align: left;
+  }
+
+  .buttons {
+    justify-content: start;
+  }
+
+  .plane {
+    display: flex;
+    width: 250px;
+    position: absolute;
+    z-index: 0;
+    right: 200px;
+
+    animation: plane 6s infinite;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .navigation {
+    background-color: #eba328;
+  }
+}
+
+
+
+/* paper plane animation */
+@keyframes plane {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50px);
+  }
 }
