@@ -15,7 +15,6 @@
 
 .logo {
   width: 150px;
-  margin-left: 10px;
 }
 
 .navigation ul {
@@ -29,8 +28,6 @@
 .navigation ul li {
   color: rgb(243, 243, 243);
 }
-
-
 
 /* main page */
 .homepage {
@@ -115,9 +112,9 @@ p {
 
   .contents {
     width: 100%;
-    justify-content: center; 
+    justify-content: center;
     flex-direction: row;
-    padding: 15 50px; 
+    padding: 15 50px;
   }
 
   .main-img {
@@ -152,16 +149,13 @@ p {
 
     animation: plane 6s infinite;
   }
-
 }
 
 @media only screen and (max-width: 900px) {
   /* .navigation {
     background-color: #eba328;
     } */
-  }
-
-
+}
 
 /* paper plane animation */
 @keyframes plane {
