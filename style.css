@@ -28,9 +28,9 @@ nav ul {
 nav ul li {
   color: rgb(234, 234, 234);
 }
-nav ul li:hover {
-  
-}
+/* nav ul li:hover {
+
+} */
 
 /* main page */
 .homepage {
@@ -157,9 +157,9 @@ p {
     }
 }
 
-  nav {
+  /* nav {
 
-  }
+  } */
 
 
 /* paper plane animation */
