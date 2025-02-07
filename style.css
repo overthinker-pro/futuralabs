@@ -17,7 +17,7 @@
   width: 150px;
 }
 
-.navigation ul {
+nav ul {
   display: flex;
   gap: 25px;
   padding: 10px;
@@ -106,15 +106,12 @@ p {
 
 /* responsiveness for bigger screens*/
 @media only screen and (min-width: 900px) {
-  .navigation {
-    padding: 20px;
-  }
 
   .contents {
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
-    padding: 15 50px;
+    padding: 15px 50px;
   }
 
   .main-img {
@@ -152,10 +149,15 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
-  /* .navigation {
+  .navigation {
     background-color: #eba328;
-    } */
+    }
 }
+
+  nav {
+
+  }
+
 
 /* paper plane animation */
 @keyframes plane {
