@@ -25,8 +25,11 @@ nav ul {
   justify-content: end;
   font-family: "Liter", sans-serif;
 }
-.navigation ul li {
+nav ul li {
   color: rgb(234, 234, 234);
+}
+nav ul li:hover {
+  
 }
 
 /* main page */
