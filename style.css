@@ -26,11 +26,26 @@ nav ul {
   font-family: "Liter", sans-serif;
 }
 nav ul li {
+  font-size: 20px;
+  padding: 15px;
   color: rgb(234, 234, 234);
+  transition: all 0.3s ease-in-out;
 }
-/* nav ul li:hover {
 
-} */
+nav ul li:hover {
+  color: #eba328;
+  cursor: pointer;
+} 
+
+.contactUs {
+  background-color: #eba328;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.contactUs:hover {
+  color: aliceblue;
+  background-color: #603693a5;
+}
 
 /* main page */
 .homepage {
@@ -110,6 +125,10 @@ p {
 /* responsiveness for bigger screens*/
 @media only screen and (min-width: 900px) {
 
+  #hb {
+    display: none;
+  }
+
   .contents {
     width: 100%;
     justify-content: space-between;
@@ -153,13 +172,19 @@ p {
 
 @media only screen and (max-width: 900px) {
   .navigation {
-    background-color: #eba328;
+    background-color: #090806;
+    }
+    
+    .list-elements {
+      display: none;
+    }
+
+    #hb {
+      display: flex;
+      color: white;
+      font-size: 30px;
     }
 }
-
-  /* nav {
-
-  } */
 
 
 /* paper plane animation */
