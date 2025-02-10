@@ -225,5 +225,15 @@ nav ul li:hover {
 .course-categories {
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.course-categories p{
+  border: 1px solid black;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: #331b50;
+  font-weight: 500;
 }
