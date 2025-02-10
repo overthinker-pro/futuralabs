@@ -205,3 +205,25 @@ nav ul li:hover {
 
 
 /* courses section */
+.course-container {
+  background-color: white;
+}
+
+.content-desc {
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.content-desc h2 {
+  padding: 10px 0;
+  font-size: 30px;
+  color: #331b50;
+}
+
+
+.course-categories {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
