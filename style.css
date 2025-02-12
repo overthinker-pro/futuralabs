@@ -238,7 +238,7 @@ nav ul li:hover {
 
 .course-categories p {
   border: 1px solid black;
-  padding: 15px 30px;
+  padding: 10px 20px;
   border-radius: 15px;
   color: #331b50;
   font-weight: 500;
@@ -267,9 +267,9 @@ nav ul li:hover {
   max-width: 300px;
   padding: 20px;
   border: 1px solid rgb(209, 209, 209);
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
-  transition: transform 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .course-box:hover {
@@ -315,3 +315,5 @@ nav ul li:hover {
     max-width: 95%; 
   }
 }
+
+/* about us section */
