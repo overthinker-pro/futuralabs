@@ -121,6 +121,8 @@ nav ul li:hover {
 
 .image-container {
   flex: 1;
+  display: grid;
+  place-items: center;
   justify-content: center;
   border: 1px solid black;
 }
