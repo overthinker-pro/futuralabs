@@ -65,7 +65,7 @@ nav ul li:hover {
 
 .main-page-content {
   display: flex;
-  gap: 60px;
+  /* gap: 60px; */
   flex-direction: row;
   padding: 0 30px;
 }
@@ -86,19 +86,18 @@ nav ul li:hover {
 .heading h1 {
   font-size: 80px;
   color: #ffb73a;
-  font-weight: bolder;
   font-family: "Prompt", serif;
 }
 
 .head-container .location {
   font-weight: bold;
   color: white;
-  margin-left: 5px;
+  /* margin-left: 40px; */
   letter-spacing: 2px;
 }
 
 .buttons {
-  margin-top: 20px;
+  margin: 20px;
   display: flex;
   font-family: "Liter", serif;
   justify-content: center;
@@ -122,6 +121,7 @@ nav ul li:hover {
 
 .image-container {
   flex: 1;
+  justify-content: center;
   border: 1px solid black;
 }
 
@@ -147,7 +147,7 @@ nav ul li:hover {
   }
 
   .main-img {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     z-index: 2;
   }
 
@@ -185,7 +185,7 @@ nav ul li:hover {
   }
 
   .head-container h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .list-elements {
