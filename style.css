@@ -500,3 +500,11 @@ nav ul li:hover {
   width: 350px;
   border-radius: 15px;
 }
+
+.spec-card h3 {
+  font-size: 20px;
+  font-weight: light;
+  color: #5a2d82;
+  font-family: "Prompt", serif;
+  margin: 10px 0 0 0;
+}
