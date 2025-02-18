@@ -75,7 +75,6 @@ nav ul li:hover {
 .head-container {
   display: flex;
   flex: 1;
-  border: 1px solid black;
   flex-direction: column;
 }
 
@@ -125,7 +124,6 @@ nav ul li:hover {
   display: grid;
   place-items: center;
   justify-content: center;
-  border: 1px solid black;
 }
 
 .main-img {
