@@ -386,6 +386,8 @@ nav ul li:hover {
 @media only screen and (min-width: 900px) {
   .about-us {
     display: flex;
+
+    gap: 100px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -412,13 +414,13 @@ nav ul li:hover {
 
 .stat-box {
   background: white;
-  padding: 20px;
-  border-radius: 12px;
+  padding: 15px 5px;
+  border-radius: 30px;
   text-align: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.stat-box h2 {
+.stat-box h3 {
   color: #5a2d82;
   margin: 0;
   font-size: 24px;
@@ -430,26 +432,71 @@ nav ul li:hover {
   font-size: 16px;
 }
 
-/* smaller screen alignment for the achievemnts section */
+/* smaller screen alignment for the achievemnts section*/
 @media (max-width: 900px) {
   .stats-container {
     width: 100%;
     display: flex;
-    margin: 50px 0;
+    margin: 50px 0 60px 0;
     flex-direction: column;
     align-items: center;
   }
 
   .stat-box {
-    width: 90%;
     min-width: 90%;
   }
 }
 
-
-/*-----Specialties page-----*/
+/*-----Specialities page-----*/
 .specialty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.spec-text {
+  text-align: center;
+}
+
+.spec-title {
+  margin: 50px 0 0 0;
+}
+
+.spec-heading {
+  font-size: 35px;
+  color: #5a2d82;
+  font-family: "Prompt", serif;
+  margin: 0 0 15px 0;
+}
+
+.spec-description {
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 0 5% 30px 0;
+  color: #4e4e4e;
+}
+
+.spec-card-container {
   width: 100%;
-  height: 100vh;
-  background-color: aqua;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spec-card {
+  min-width: 80%;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.spec-card img {
+  width: 350px;
+  border-radius: 15px;
 }
