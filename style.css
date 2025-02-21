@@ -97,7 +97,7 @@ nav ul li:hover {
 }
 
 .buttons {
-  margin: 20px;
+  margin: 20px 0;
   display: flex;
   font-family: "Liter", serif;
   justify-content: center;
@@ -147,9 +147,13 @@ nav ul li:hover {
     padding: 15px 50px;
   }
 
+  .head-container {
+    padding-left: 40px;
+  }
+
   .heading {
     width: 400px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
   }
 
   .heading h1 {
@@ -473,7 +477,7 @@ nav ul li:hover {
 .spec-description {
   font-size: 15px;
   letter-spacing: 1px;
-  margin: 0 5% 30px 0;
+  margin: 0 30px;
   color: #4e4e4e;
 }
 
@@ -483,10 +487,11 @@ nav ul li:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 0 30px 0;
 }
 
 .spec-card {
-  min-width: 80%;
+  max-width: 80%;
   margin: 10px 0;
   padding: 15px;
   background-color: #ffffff;
@@ -494,6 +499,7 @@ nav ul li:hover {
   flex-direction: column;
   align-items: center;
   border-radius: 15px;
+  text-align: center;
 }
 
 .spec-card img {
@@ -507,4 +513,40 @@ nav ul li:hover {
   color: #5a2d82;
   font-family: "Prompt", serif;
   margin: 10px 0 0 0;
+}
+
+.spec-card p {
+  font-size: 15px;
+  color: #434343;
+  margin: 15px 0;
+  letter-spacing: 1px;
+}
+
+/* view on tablet screens */
+@media (min-width: 600px) {
+  .spec-card {
+    min-width: 500px;
+  }
+}
+/* spec cards alignment in desktop screens */
+@media (min-width: 1100px) {
+  .spec-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .spec-card {
+    flex: 1;
+    max-width: 30%;
+    min-width: 280px;
+    min-height: 300px;
+  }
+
+  .spec-card img {
+    width: 90%;
+  }
+  
 }
