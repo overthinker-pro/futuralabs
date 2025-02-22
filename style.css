@@ -528,6 +528,15 @@ nav ul li:hover {
     min-width: 500px;
   }
 }
+
+/* Image alignment on mobile view */
+@media (min-width: 400px){
+  .spec-card img {
+    width: 95%;
+  }
+}
+
+
 /* spec cards alignment in desktop screens */
 @media (min-width: 1100px) {
   .spec-card-container {
