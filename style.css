@@ -58,7 +58,9 @@ nav ul li:hover {
   background-color: #603693a5;
 }
 
+/* ---------- */
 /* main page */
+/* -------- */
 .homepage {
   padding-bottom: 30px;
   background-color: #331b50;
@@ -66,7 +68,6 @@ nav ul li:hover {
 
 .main-page-content {
   display: flex;
-  /* gap: 60px; */
   flex-direction: row;
   padding: 0 30px;
 }
@@ -92,7 +93,6 @@ nav ul li:hover {
 .head-container .location {
   font-weight: bold;
   color: white;
-  /* margin-left: 40px; */
   letter-spacing: 2px;
 }
 
@@ -206,7 +206,9 @@ nav ul li:hover {
   }
 }
 
+/* ---------------- */
 /* courses section */
+/* -------------- */
 .course-container {
   background-color: white;
 }
@@ -321,7 +323,9 @@ nav ul li:hover {
   }
 }
 
+/* ----------------- */
 /* about us section */
+/* --------------- */
 .about-us {
   display: flex;
   background-color: #f6f1fe;
@@ -355,8 +359,7 @@ nav ul li:hover {
 }
 
 .about-button {
-  width: 150px;
-  padding: 10px;
+  padding: 10px 15px;
   background: transparent;
   border: 1px solid #5a2d82;
   border-radius: 15px;
@@ -451,7 +454,9 @@ nav ul li:hover {
   }
 }
 
+/* -------------------------- */
 /*-----Specialities page-----*/
+/* ------------------------ */
 .specialty {
   display: flex;
   flex-direction: column;
@@ -531,12 +536,15 @@ nav ul li:hover {
   .spec-card {
     min-width: 500px;
   }
+  .spec-card img {
+    min-width: 90%;
+  }
 }
 
 /* Image alignment on mobile view */
 @media (min-width: 400px) {
   .spec-card img {
-    min-width: 90%;
+    max-width: 95%;
   }
 }
 
@@ -571,10 +579,23 @@ nav ul li:hover {
   border-radius: 15px;
   cursor: pointer;
   font-size: 19px;
-  margin: 0 0 30px 0;
+  margin: 0 0 50px 0;
   transition: all 0.3s ease-in-out;
 }
 .spec-button:hover {
   background-color: #5a2d82;
   color: white;
+}
+
+/* ------------- */
+/* Process Page */
+/* ----------- */
+.process {
+  background-color: #502d7c;
+}
+
+.process-heading {
+  font-size: 30px;
+  color: #e5e5e5;
+  font-family: "Prompt", serif;
 }
