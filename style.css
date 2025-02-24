@@ -592,10 +592,31 @@ nav ul li:hover {
 /* ----------- */
 .process {
   background-color: #502d7c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-texts {
+  text-align: center;
 }
 
 .process-heading {
   font-size: 30px;
+  margin: 0 0 15px 0;
   color: #e5e5e5;
   font-family: "Prompt", serif;
+}
+
+.process-title {
+  color: #e3e3e3;
+  font-size: 18px;
+  margin: 50px 0 5px 0;
+}
+
+.process-desc {
+  color: #e3e3e3;
+  font-size: 18px;
+  margin: 0 10px;
 }
