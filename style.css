@@ -620,3 +620,34 @@ nav ul li:hover {
   font-size: 18px;
   margin: 0 20px;
 }
+
+.process-list {
+  margin-top: 30px;
+}
+
+.process-list li {
+  color: white;
+  margin: 15px 0;
+}
+
+.process-list i {
+  color: #eba328;
+}
+
+
+@media (min-width: 600px) {
+  .process-texts {
+    width: 400px;
+    flex: 1;
+    text-align: left;
+  }
+  
+  .process {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .process-illustration {
+    flex: 2;
+  }
+}
