@@ -9,7 +9,6 @@
   font-family: "Liter", sans-serif;
 }
 
-
 .navigation {
   display: flex;
   position: sticky;
@@ -342,7 +341,6 @@ nav ul li:hover {
   text-align: center;
 }
 
-
 .ab-head {
   font-size: 30px;
   color: #5a2d82;
@@ -645,7 +643,6 @@ nav ul li:hover {
   }
 }
 
-
 /* ----------------- */
 /* -Placement page- */
 /* --------------- */
@@ -699,7 +696,7 @@ nav ul li:hover {
   border-radius: 15px;
   cursor: pointer;
   font-size: 19px;
-  margin: 30px 0 40px 0;
+  margin: 30px 0 10px 0;
   transition: all 0.3s ease-in-out;
 }
 .placement-button:hover {
@@ -711,20 +708,137 @@ nav ul li:hover {
 @media (min-width: 1024px) {
   /* Desktop: 5 columns */
   .placement-companies {
-      grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   /* Tablet: 3 columns */
   .placement-companies {
-      grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 767px) {
   /* Mobile: 2 columns */
   .placement-companies {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ----------------------- */
+/* -- Placements part 2 --*/
+/* --------------------- */
+
+.placement2 {
+  background: linear-gradient(102.38deg, #361457 0.94%, #562b80 100%);
+}
+
+.plc2-text {
+  color: #e3e3e3;
+  text-align: center;
+}
+
+.plc2-heading {
+  font-size: 35px;
+  font-family: "Prompt", serif;
+  color: #e2e2e2;
+  margin: 10px 0;
+}
+
+/* placement gallery code */
+
+.carousel-container {
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+  overflow: hidden;
+}
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  min-width: 250px;
+  flex: 0 0 auto;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.info {
+  margin-top: 10px;
+}
+.info h3 {
+  margin: 10px 0 5px;
+}
+.info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+
+/* Adjusting the gallery in mobile view */
+@media (max-width: 768px) {
+  .gallery-wrapper {
+    max-width: 90%;
+    overflow: hidden;
+  }
+
+  .gallery {
+    display: flex;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .card {
+    min-width: 80%;
+    margin: auto;
+  }
+
+  .nav-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    top: 55%;
+  }
+
+  .left {
+    left: -10px;
+  }
+
+  .right {
+    right: -10px;
+  }
+
+  .view-all {
+    width: 100%;
   }
 }
