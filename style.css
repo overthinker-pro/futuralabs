@@ -731,28 +731,41 @@ nav ul li:hover {
 /* --------------------- */
 
 .placement2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: linear-gradient(102.38deg, #361457 0.94%, #562b80 100%);
 }
 
+/* Placement section 2 title, heading, and paragraph */
 .plc2-text {
   color: #e3e3e3;
   text-align: center;
+  margin-top: 30px;
+  border: 1px solid yellow;
 }
 
 .plc2-heading {
   font-size: 35px;
   font-family: "Prompt", serif;
   color: #e2e2e2;
-  margin: 10px 0;
+  margin: 10px 20px;
+}
+
+.plc2-desc {
+  letter-spacing: 1px;
+  margin: 20px 30px;
+  color: #dedede;
 }
 
 /* placement gallery code */
 
 .carousel-container {
   position: relative;
-  width: 80%;
-  max-width: 1200px;
+  /* width: 80%;  */
+  max-width: 800px;
   overflow: hidden;
+  border: 1px solid white;
 }
 .carousel {
   display: flex;
@@ -788,7 +801,7 @@ nav ul li:hover {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(74, 74, 74, 0.6);
   border: none;
   cursor: pointer;
   font-size: 20px;
@@ -804,12 +817,14 @@ nav ul li:hover {
 
 /* Adjusting the gallery in mobile view */
 @media (max-width: 768px) {
-  .gallery-wrapper {
+  .carousel-container {
     max-width: 90%;
     overflow: hidden;
+    display: none;
+    visibility: hidden;
   }
 
-  .gallery {
+  .carousel {
     display: flex;
     gap: 10px;
     scroll-snap-type: x mandatory;
@@ -817,28 +832,16 @@ nav ul li:hover {
     justify-content: center;
     padding: 10px;
   }
-
   .card {
     min-width: 80%;
     margin: auto;
   }
 
-  .nav-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
-    top: 55%;
-  }
-
-  .left {
+  .previous {
     left: -10px;
   }
 
-  .right {
+  .next {
     right: -10px;
-  }
-
-  .view-all {
-    width: 100%;
   }
 }
