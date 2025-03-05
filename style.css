@@ -875,3 +875,20 @@ nav ul li:hover {
 /* //////////////////////// */
 /* Join Course Section /// */
 /* ////////////////////// */
+.join-course {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.course-card {
+  width: 70%;
+  background-color: #331b50;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-join-image {
+  width: 50%;
+}
