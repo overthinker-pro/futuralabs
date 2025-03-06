@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Liter", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* removing the preset style for URLs throughout the website */
@@ -40,7 +38,6 @@ nav ul {
   padding: 10px;
   list-style-type: none;
   justify-content: end;
-  font-family: "Liter", sans-serif;
 }
 nav ul li {
   font-size: 20px;
@@ -105,7 +102,6 @@ nav ul li:hover {
 .buttons {
   margin: 20px 0;
   display: flex;
-  font-family: "Liter", serif;
   justify-content: center;
   gap: 15px;
   color: whitesmoke;
@@ -137,7 +133,7 @@ nav ul li:hover {
   transition: all 0.5s ease-in-out;
 }
 .main-img:hover {
-  scale: 1.07;
+  transform: scale(1.07);
 }
 
 /* responsiveness for bigger screens*/
@@ -416,6 +412,7 @@ nav ul li:hover {
 
 /* achievements section in about page */
 .stats-container {
+  padding: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
