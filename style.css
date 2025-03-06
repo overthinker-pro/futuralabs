@@ -884,12 +884,12 @@ nav ul li:hover {
 
 .course-card {
   width: 80%;
-  background: radial-gradient(circle, rgba(72,35,108,1) 0%, rgba(116,48,182,1) 100%);
+  background: radial-gradient(circle, rgba(72,35,108,1) 20%, rgba(116,48,182,1) 80%);
   display: flex;
   flex-direction: column;
-  /* padding: 20px; */
   text-align: center;
   border-radius: 20px;
+  box-shadow: 2px 3px 4px rgb(69, 69, 69);
 }
 
 .course-card-head {
@@ -904,4 +904,24 @@ nav ul li:hover {
   color: white;
   font-weight: 500;
   margin: 5px 10px;
+}
+
+.join-course-button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 19px;
+  margin: 20px;
+}
+
+
+
+
+/* fixing the course card width in bigger screens */
+@media (min-width: 900px) {
+  .course-card {
+    display: flex;
+    flex: row;
+    height: 200px;
+    width: 95%;
+  }
 }
