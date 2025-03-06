@@ -884,7 +884,11 @@ nav ul li:hover {
 
 .course-card {
   width: 80%;
-  background: radial-gradient(circle, rgba(72,35,108,1) 20%, rgba(116,48,182,1) 80%);
+  background: radial-gradient(
+    circle,
+    rgba(72, 35, 108, 1) 20%,
+    rgba(116, 48, 182, 1) 80%
+  );
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -892,18 +896,19 @@ nav ul li:hover {
   box-shadow: 2px 3px 4px rgb(69, 69, 69);
 }
 
-.course-card-head {
+.course-card-heading {
   font-size: 35px;
   font-family: "Prompt", serif;
   color: #e2e2e2;
-  margin: 10px;
   font-weight: 600;
+  margin: 20px 10px;
 }
 
 .course-card-desc {
   color: white;
   font-weight: 500;
   margin: 5px 10px;
+  letter-spacing: 1px;
 }
 
 .join-course-button {
@@ -911,17 +916,42 @@ nav ul li:hover {
   border-radius: 15px;
   font-size: 19px;
   margin: 20px;
+  border: 1px solid white;
+  color: #5a2d82;
+  transition: all 0.2s ease-in-out;
+}
+.join-course-button:hover {
+  cursor: pointer;
+  color: #dedede;
+  background: transparent;
 }
 
-
-
-
-/* fixing the course card width in bigger screens */
+/* fixing the course card width and layout in bigger screens */
 @media (min-width: 900px) {
   .course-card {
     display: flex;
-    flex: row;
-    height: 200px;
+    flex-direction: row;
     width: 95%;
+  }
+  .course-card-texts {
+    flex: 2;
+  }
+  .course-card-image-box {
+    flex: 1;
+  }
+
+  /* removing the given margins for the course card text div contents */
+  .course-card-texts h2,
+  .course-card-texts p,
+  .join-course-button {
+    margin-left: 0;
+  }
+
+  .course-card-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 30px;
   }
 }
