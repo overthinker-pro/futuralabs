@@ -884,11 +884,12 @@ nav ul li:hover {
 
 .course-card {
   width: 80%;
-  background-color: #502d7c;
+  background: radial-gradient(circle, rgba(72,35,108,1) 0%, rgba(116,48,182,1) 100%);
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
+  border-radius: 20px;
 }
 
 .course-card-head {
@@ -897,4 +898,10 @@ nav ul li:hover {
   color: #e2e2e2;
   margin: 10px;
   font-weight: 600;
+}
+
+.course-card-desc {
+  color: white;
+  font-weight: 500;
+  margin: 5px 10px;
 }
