@@ -876,19 +876,19 @@ nav ul li:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px;
 }
 
 .course-card {
-  width: 80%;
+  width: 95%;
   background: radial-gradient(
     circle,
     rgba(72, 35, 108, 1) 20%,
-    rgba(116, 48, 182, 1) 80%
+    rgb(57, 19, 95) 80%
   );
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 20px 50px;
   border-radius: 20px;
 }
 
@@ -923,7 +923,6 @@ nav ul li:hover {
 }
 
 .join-course-image {
-  transform: scale(1);
   transition: all 0.5s ease-in-out;
   filter: drop-shadow(8px 8px 10px rgb(58, 58, 58));
 }
@@ -939,7 +938,7 @@ nav ul li:hover {
     width: 95%;
   }
   .course-card-texts {
-    flex: 2;
+    flex: 1;
   }
   .course-card-image-box {
     flex: 1;
