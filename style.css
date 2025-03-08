@@ -310,7 +310,7 @@ nav ul li:hover {
   color: #5a2d82;
   border-radius: 15px;
   cursor: pointer;
-  font-size: 19px;
+  font-size: 17px;
   transition: all 0.3s ease-in-out;
 }
 .view-more button:hover {
@@ -361,7 +361,7 @@ nav ul li:hover {
   background: transparent;
   border: 1px solid #5a2d82;
   border-radius: 15px;
-  font-size: 19px;
+  font-size: 17px;
   letter-spacing: 2px;
   color: #5a2d82;
   margin: 10px 0 30px 0;
@@ -586,7 +586,7 @@ nav ul li:hover {
   color: #5a2d82;
   border-radius: 15px;
   cursor: pointer;
-  font-size: 19px;
+  font-size: 17px;
   margin: 0 0 50px 0;
   transition: all 0.3s ease-in-out;
 }
@@ -707,7 +707,7 @@ nav ul li:hover {
   color: #331b50;
   border-radius: 15px;
   cursor: pointer;
-  font-size: 19px;
+  font-size: 17px;
   margin: 30px 0 10px 0;
   transition: all 0.3s ease-in-out;
 }
@@ -868,7 +868,7 @@ nav ul li:hover {
   color: #e0e0e0;
   border-radius: 15px;
   cursor: pointer;
-  font-size: 19px;
+  font-size: 17px;
   margin: 10px 0 40px 0;
   transition: all 0.3s ease-in-out;
 }
@@ -919,7 +919,7 @@ nav ul li:hover {
 .join-course-button {
   padding: 10px 20px;
   border-radius: 15px;
-  font-size: 19px;
+  font-size: 17px;
   margin: 20px;
   border: 1px solid white;
   color: #5a2d82;
@@ -969,7 +969,84 @@ nav ul li:hover {
   }
 }
 
-
 /* ///////////////////// */
 /* Testimonials Section */
 /* /////////////////// */
+
+/* reference areas */
+.testimonials {
+  background-color: #8d8d8d;
+  padding: 10px;
+}
+
+.testimonials,
+.testimonials-card,
+.testimonials-texts-rating,
+.testimonials-personal,
+.testimonials-review {
+  border: 1px solid rgb(39, 39, 39);
+}
+
+
+.testimonials-personal {
+  background-color: yellow;
+}
+
+.testimonials-card {
+  margin: 30px 0;
+  background-color: #e1cfff;
+  padding: 20px;
+}
+/* /////////// */
+
+/* testimonials title, heading, description, google rating */
+.testimonials-texts-rating {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonials-title {
+  font-weight: 500;
+  margin: 20px 0 0 0;
+}
+
+.testimonials-heading {
+  font-size: 35px;
+  font-family: "Prompt", serif;
+  color: #361457;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+.testimonials-desc {
+  color: #333;
+  margin: 10px 15px;
+}
+
+.testimonials-texts-rating img {
+  width: 70%;
+  margin: 15px 10px;
+  transition: all 0.3s linear;
+}
+.testimonials-texts-rating img:hover {
+  transform: scale(1.03);
+}
+
+.testimonials-button {
+  padding: 10px 25px;
+  border: 1px solid #331b50;
+  background: transparent;
+  color: #331b50;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 17px;
+  margin: 10px 0;
+  transition: all 0.3s ease-in-out;
+}
+.testimonials-button:hover {
+  color: #263ad2;
+  background-color: rgb(205, 65, 65);
+}
