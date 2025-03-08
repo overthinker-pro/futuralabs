@@ -932,11 +932,11 @@ nav ul li:hover {
 }
 
 .join-course-image {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s linear;
   filter: drop-shadow(3px 3px 5px rgba(156, 156, 156, 0.614));
 }
 .join-course-image:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 /* fixing the course card width and layout in bigger screens */
@@ -968,3 +968,8 @@ nav ul li:hover {
     padding: 0 30px;
   }
 }
+
+
+/* ///////////////////// */
+/* Testimonials Section */
+/* /////////////////// */
