@@ -241,6 +241,7 @@ nav ul li:hover {
   display: flex;
   text-align: center;
   gap: 10px;
+  align-items: center;
   justify-content: center;
   padding: 10px 0;
 }
@@ -249,10 +250,9 @@ nav ul li:hover {
   border: 1px solid #331b50;
   padding: 10px 20px;
   border-radius: 15px;
-  font-size: 20px;
+  font-size: 15px;
   color: #331b50;
   font-weight: 500;
-  line-height: 15px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -380,10 +380,10 @@ nav ul li:hover {
 
 .about-image {
   width: 350px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s linear;
 }
 .about-image:hover {
-  scale: 1.03;
+  scale: 1.06;
 }
 
 /* bigger screen view for about section */
@@ -391,7 +391,6 @@ nav ul li:hover {
 @media only screen and (min-width: 900px) {
   .about-us {
     display: flex;
-
     gap: 100px;
     flex-direction: row;
     align-items: center;
@@ -399,14 +398,24 @@ nav ul li:hover {
   }
 
   .about-text {
-    width: 400px;
+    width: 500px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .about-image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .about-button {
+    margin-left: 25px;
+  }
+  .ab-title {
+    margin-left: 40px;
   }
 }
 
@@ -420,7 +429,7 @@ nav ul li:hover {
 
 .stat-box {
   background: white;
-  padding: 15px 5px;
+  padding: 15px;
   border-radius: 30px;
   text-align: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -924,7 +933,7 @@ nav ul li:hover {
 
 .join-course-image {
   transition: all 0.5s ease-in-out;
-  filter: drop-shadow(8px 8px 10px rgb(58, 58, 58));
+  filter: drop-shadow(3px 3px 5px rgba(156, 156, 156, 0.614));
 }
 .join-course-image:hover {
   transform: scale(1.05);
@@ -938,7 +947,7 @@ nav ul li:hover {
     width: 95%;
   }
   .course-card-texts {
-    flex: 1;
+    flex: 2;
   }
   .course-card-image-box {
     flex: 1;
