@@ -79,6 +79,7 @@ nav ul li:hover {
 .head-container {
   display: flex;
   flex: 1;
+  margin: 30px 0;
   flex-direction: column;
 }
 
@@ -972,32 +973,20 @@ nav ul li:hover {
 /* ///////////////////// */
 /* Testimonials Section */
 /* /////////////////// */
-
-/* reference areas */
 .testimonials {
-  background-color: #8d8d8d;
   padding: 10px;
 }
 
-.testimonials,
-.testimonials-card,
-.testimonials-texts-rating,
-.testimonials-personal,
-.testimonials-review {
-  border: 1px solid rgb(39, 39, 39);
-}
-
-
-.testimonials-personal {
-  background-color: yellow;
-}
-
+/* 'What our students say' card */
 .testimonials-card {
-  margin: 30px 0;
-  background-color: #e1cfff;
+  margin: 30px;
+  background-color: #f7f1ff;
   padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-/* /////////// */
 
 /* testimonials title, heading, description, google rating */
 .testimonials-texts-rating {
@@ -1022,7 +1011,7 @@ nav ul li:hover {
 }
 
 .testimonials-desc {
-  color: #333;
+  color: #3b3b3b;
   margin: 10px 15px;
 }
 
@@ -1035,6 +1024,29 @@ nav ul li:hover {
   transform: scale(1.03);
 }
 
+.testimonials-personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.testimonials-personal img {
+  transform: scale(0.8);
+  margin-top: 10px;
+}
+.testimonials-review p {
+  color: #3b3b3b;
+  line-height: 28px;
+  margin: 15px 0 0 0;
+}
+.testimonials-review h4 {
+  margin: 20px 0;
+}
+
 .testimonials-button {
   padding: 10px 25px;
   border: 1px solid #331b50;
@@ -1043,10 +1055,10 @@ nav ul li:hover {
   border-radius: 15px;
   cursor: pointer;
   font-size: 17px;
-  margin: 10px 0;
+  margin: 50px 0 0 0;
   transition: all 0.3s ease-in-out;
 }
 .testimonials-button:hover {
-  color: #263ad2;
-  background-color: rgb(205, 65, 65);
+  color: #dedede;
+  background-color: #331b50;
 }
