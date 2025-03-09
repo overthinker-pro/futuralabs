@@ -1107,3 +1107,21 @@ nav ul li:hover {
 /* ////////////////// */
 /* Advisor section// */
 /* //////////////// */
+.enquiry {
+  padding: 20px;
+  background: linear-gradient(220deg, #311653 30%, #512e7c 70%);
+}
+
+
+
+/* reference areas */
+
+.enquiry-image-container {
+  background-color: white;
+}
+
+.enquiry-image {
+  width: 300px;
+}
+
+/* ////////////// */
