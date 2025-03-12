@@ -935,7 +935,7 @@ nav ul li:hover {
 .join-course-image {
   width: 80%;
   transition: all 0.2s linear;
-  filter: drop-shadow(3px 3px 5px rgba(156, 156, 156, 0.614));
+  filter: drop-shadow(3px 3px 5px #9c9c9c9d);
 }
 .join-course-image:hover {
   transform: scale(1.03);
@@ -1032,7 +1032,7 @@ nav ul li:hover {
   text-align: center;
   border-radius: 15px;
   padding: 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 
 .testimonials-personal img {
@@ -1084,7 +1084,7 @@ nav ul li:hover {
   .testimonials-desktop {
     flex: 1;
     max-width: 500px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
