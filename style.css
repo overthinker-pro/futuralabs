@@ -1112,13 +1112,15 @@ nav ul li:hover {
 /* Advisor section// */
 /* //////////////// */
 .enquiry {
-  padding: 20px;
   background: linear-gradient(220deg, #311653 30%, #512e7c 70%);
 }
 
 .enquiry-contents {
   background-color: aqua;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -1129,7 +1131,16 @@ nav ul li:hover {
 }
 
 .enquiry-image {
-  width: 300px;
+  max-width: 250px;
 }
 
+
+.enquiry-form-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.enquiry-form-body textarea {
+  resize: vertical;
+}
 /* ////////////// */
