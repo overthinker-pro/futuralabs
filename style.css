@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 /* removing the preset style for URLs throughout the website */
 a {
   text-decoration: none;
@@ -613,7 +617,7 @@ nav ul li:hover {
 
 .process-heading {
   font-size: 30px;
-  margin: 0 0 15px 0;
+  margin: 0 15px 15px 15px;
   color: #e5e5e5;
   font-family: "Prompt", serif;
 }
@@ -1112,6 +1116,10 @@ nav ul li:hover {
   background: linear-gradient(220deg, #311653 30%, #512e7c 70%);
 }
 
+.enquiry-contents {
+  background-color: aqua;
+  padding: 30px;
+}
 
 
 /* reference areas */
