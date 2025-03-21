@@ -1108,7 +1108,7 @@ nav ul li:hover {
 }
 
 /* ////////////////// */
-/* Advisor section// */
+/* Enquiry section// */
 /* //////////////// */
 .enquiry {
   background: linear-gradient(220deg, #311653 30%, #512e7c 70%);
@@ -1142,36 +1142,44 @@ nav ul li:hover {
   margin: 0 10px 20px 10px;
 }
 
+.enquiry-image {
+  max-width: 250px;
+}
+
 /* form contents */
+.enquiry-form-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 
 
 
 
 /* reference areas */
 
-.enquiry-image {
-  max-width: 250px;
-}
-
-.enquiry-form-body {
-  display: flex;
-  flex-direction: column;
-}
 
 .enquiry-form-body textarea {
   resize: vertical;
   min-height: 100px;
 }
 
-input, select, textarea {
+input, select, textarea, option {
   width: 100%;
   margin: 10px 0;
-  height: 25px;
-  padding: 20px;
-  border-radius: 15px;
+  padding: 10px;
+  border-radius: 10px;
   border: none;
-  color: rgb(16, 16, 16);
+  color: rgb(242, 242, 242);
+  background: linear-gradient(145deg, #623796 40%, #673b9d 60%);
 }
 
+input::placeholder,
+textarea::placeholder {
+  color: #ffffff;
+  background: linear-gradient(145deg, #623796 40%, #673b9d 60%);;
+}
 
 /* ////////////// */
