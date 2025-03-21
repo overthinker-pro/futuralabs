@@ -1157,7 +1157,7 @@ nav ul li:hover {
   display: flex;
   flex-direction: column;
   border: 2px solid red;
-  width: 90%;
+  width: 95%;
 }
 
 .enquiry-form-body textarea {
@@ -1165,7 +1165,9 @@ nav ul li:hover {
   min-height: 100px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   width: 100%;
   margin: 10px 0;
   padding: 10px;
@@ -1185,12 +1187,7 @@ select option {
   background-color: #502d7c;
 }
 
-
-
-
-
 /* reference areas */
-
 
 @media (min-width: 750px) {
   .enquiry-desc {
@@ -1203,12 +1200,5 @@ select option {
     max-width: 500px;
   }
 }
-
-@media (max-width: 400px) {
-  .enquiry-form-body {
-    min-width: 200px;
-  }
-}
-
 
 /* ////////////// */
