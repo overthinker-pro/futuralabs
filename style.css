@@ -1185,6 +1185,29 @@ select option {
   background-color: #502d7c;
 }
 
+.enquiry-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.enquiry-button {
+  padding: 10px 25px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #dedede;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 17px;
+  margin: 30px 0 70px 0;
+  transition: all 0.3s ease-in-out;
+}
+.enquiry-button:hover {
+  color: #5a2d82;
+  background-color: white;
+}
+
+/* enquiry section responsiveness */
 @media (min-width: 750px) {
   .enquiry-desc {
     max-width: 600px;
@@ -1211,11 +1234,3 @@ select option {
     min-width: 400px;
   }
 }
-
-
-
-/* reference areas */
-
-
-
-/* ////////////// */
