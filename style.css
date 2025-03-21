@@ -789,7 +789,7 @@ nav ul li:hover {
   transition: transform 0.5s ease-in-out;
 }
 .card {
-  background: white;
+  background: rgba(255, 255, 255, 0.495);
   border-radius: 10px;
   text-align: center;
   padding: 20px;
