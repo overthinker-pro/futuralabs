@@ -1111,11 +1111,17 @@ nav ul li:hover {
 /* Enquiry section// */
 /* //////////////// */
 .enquiry {
-  background: linear-gradient(220deg, #311653 30%, #512e7c 70%);
+  background: linear-gradient(220deg, #391268 30%, #3f1f65 70%);
 }
 
 .enquiry-contents {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enquiry-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1150,6 +1156,8 @@ nav ul li:hover {
 .enquiry-form-body {
   display: flex;
   flex-direction: column;
+  border: 2px solid red;
+  width: 90%;
 }
 
 .enquiry-form-body textarea {
@@ -1184,13 +1192,23 @@ select option {
 /* reference areas */
 
 
-@media (max-width: 750px) {
+@media (min-width: 750px) {
+  .enquiry-desc {
+    max-width: 600px;
+    margin: 0 0 20px 0;
+  }
+
   .enquiry-form-body {
-    max-width: 500px;
     border: 3px solid yellow;
+    max-width: 500px;
   }
 }
 
+@media (max-width: 400px) {
+  .enquiry-form-body {
+    min-width: 200px;
+  }
+}
 
 
 /* ////////////// */
