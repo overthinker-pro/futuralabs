@@ -44,7 +44,7 @@ nav ul {
   justify-content: end;
 }
 nav ul li {
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px;
   color: rgb(234, 234, 234);
   transition: all 0.3s ease-in-out;
@@ -1156,7 +1156,6 @@ nav ul li:hover {
 .enquiry-form-body {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
   width: 95%;
 }
 
@@ -1186,8 +1185,6 @@ select option {
   background-color: #502d7c;
 }
 
-/* reference areas */
-
 @media (min-width: 750px) {
   .enquiry-desc {
     max-width: 600px;
@@ -1195,28 +1192,30 @@ select option {
   }
 
   .enquiry-form-body {
-    border: 3px solid yellow;
     max-width: 500px;
   }
 }
-
 @media (min-width: 1100px) {
   .enquiry-contents {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 50px;
   }
   .enquiry-image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
   }
   .enquiry-image {
     min-width: 400px;
   }
-  .enquiry-form {
-    flex: 2;
-  }
 }
+
+
+
+/* reference areas */
+
+
 
 /* ////////////// */
