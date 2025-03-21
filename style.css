@@ -1180,7 +1180,6 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   color: #ffffff;
-  background: linear-gradient(145deg, #623796 40%, #673b9d 60%);
 }
 
 select option {
@@ -1198,6 +1197,25 @@ select option {
   .enquiry-form-body {
     border: 3px solid yellow;
     max-width: 500px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .enquiry-contents {
+    display: flex;
+    flex-direction: row;
+  }
+  .enquiry-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  .enquiry-image {
+    min-width: 400px;
+  }
+  .enquiry-form {
+    flex: 2;
   }
 }
 
