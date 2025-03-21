@@ -1152,7 +1152,30 @@ nav ul li:hover {
   flex-direction: column;
 }
 
+.enquiry-form-body textarea {
+  resize: vertical;
+  min-height: 100px;
+}
 
+input, select, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(145deg, #623796 40%, #673b9d 60%);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ffffff;
+  background: linear-gradient(145deg, #623796 40%, #673b9d 60%);
+}
+
+select option {
+  background-color: #502d7c;
+}
 
 
 
@@ -1161,25 +1184,8 @@ nav ul li:hover {
 /* reference areas */
 
 
-.enquiry-form-body textarea {
-  resize: vertical;
-  min-height: 100px;
-}
 
-input, select, textarea, option {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 10px;
-  border: none;
-  color: rgb(242, 242, 242);
-  background: linear-gradient(145deg, #623796 40%, #673b9d 60%);
-}
 
-input::placeholder,
-textarea::placeholder {
-  color: #ffffff;
-  background: linear-gradient(145deg, #623796 40%, #673b9d 60%);;
-}
+
 
 /* ////////////// */
