@@ -983,7 +983,7 @@ nav ul li:hover {
 
 /* 'What our students say' card */
 .testimonials-card {
-  margin: 30px 30px 50px 30px;
+  margin: 30px 20px 50px 20px;
   background-color: #f7f1ff;
   padding: 20px;
   border-radius: 15px;
@@ -1150,6 +1150,10 @@ nav ul li:hover {
 
 .enquiry-image {
   max-width: 250px;
+  transition: all 0.3s ease-in-out;
+}
+.enquiry-image:hover {
+  transform: scale(1.05);
 }
 
 /* form contents */
