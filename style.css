@@ -384,7 +384,7 @@ nav ul li:hover {
 }
 
 .about-image {
-  width: 350px;
+  width: 300px;
   transition: all 0.3s linear;
 }
 .about-image:hover {
