@@ -381,10 +381,12 @@ nav ul li:hover {
 /* about-us page image */
 .about-image-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-image {
-  width: 300px;
+  max-width: 60%;
   transition: all 0.3s linear;
 }
 .about-image:hover {
@@ -414,6 +416,9 @@ nav ul li:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .about-image {
+    min-width: 350px;
   }
 
   .about-button {
