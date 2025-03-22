@@ -1275,10 +1275,14 @@ select option {
   max-width: 140px;
 }
 
+
+.faq-item button {
+  text-align: left;
+}
 .faq-question {
   background-color: transparent;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #361457;
   display: flex;
