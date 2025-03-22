@@ -1,3 +1,4 @@
+// Carousel slider
 const carousel = document.querySelector(".carousel");
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
@@ -15,4 +16,25 @@ prevBtn.addEventListener("click", () => {
     index--;
     carousel.style.transform = `translateX(-${index * 270}px)`;
   }
+});
+
+// FAQ Toggle button
+const faqButtons = document.querySelectorAll(".faq-question");
+
+faqButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const answer = button.nextElementSibling;
+    const icon = button.querySelector(".icon");
+    const isActive = answer.classList.contains("active");
+
+    document.querySelectorAll(".faq-answer").forEach((a) => {
+      a.classList.remove("active");
+      a.previousElementSibling.querySelector(".icon").textContent = "+";
+    });
+
+    if (!isActive) {
+      answer.classList.add("active");
+      icon.textContent = "—";
+    }
+  });
 });

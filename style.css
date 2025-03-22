@@ -1274,3 +1274,32 @@ select option {
 .faq-image {
   max-width: 140px;
 }
+
+.faq-question {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #361457;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 20px;
+  color: #6c33d2;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+  padding-top: 0;
+}
+
+.faq-answer.active {
+  max-height: 200px;
+  padding-top: 15px;
+}
