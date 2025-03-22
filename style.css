@@ -1243,3 +1243,26 @@ select option {
     min-width: 400px;
   }
 }
+
+
+/* //////////// */
+/* FAQ  Section */
+/* //////////// */
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faq-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+/* reference areas */
+.faq-image {
+  max-width: 140px;
+}
