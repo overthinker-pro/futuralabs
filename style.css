@@ -1253,12 +1253,20 @@ select option {
   flex-direction: column;
   align-items: center;
 }
-.faq-texts {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
+/* faq title and heading part */
+.faq-texts {
+  text-align: center;
+}
+.faq-title {
+  font-weight: 500;
+  margin: 70px 0 10px 0;
+}
+.faq-heading {
+  font-size: 35px;
+  color: #5a2d82;
+  font-family: "Prompt", serif;
+}
 
 
 
