@@ -1275,6 +1275,10 @@ select option {
   max-width: 140px;
 }
 
+.faq-item {
+  padding: 20px;
+}
+
 
 .faq-item button {
   text-align: left;
