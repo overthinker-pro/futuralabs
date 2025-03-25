@@ -398,6 +398,14 @@ nav ul li:hover {
 }
 
 /* bigger screen view for about section */
+@media (min-width: 600px) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 @media only screen and (min-width: 900px) {
   .about-us {
@@ -432,6 +440,7 @@ nav ul li:hover {
     margin-left: 40px;
   }
 }
+
 
 /* achievements section in about page */
 .stats-container {
