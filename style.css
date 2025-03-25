@@ -1268,11 +1268,15 @@ select option {
   font-family: "Prompt", serif;
 }
 
+/* padding for the questions and answers */
+.faq-item {
+  padding: 20px;
+}
 
-
-
-
-
+/* left-align for questions text */
+.faq-item button {
+  text-align: left;
+}
 
 
 
@@ -1281,17 +1285,17 @@ select option {
 
 /* reference areas */
 .faq-image {
-  max-width: 140px;
+  max-width: 250px;
+  transition: all 0.4s ease-in-out;
+}
+.faq-image:hover {
+  transform: scale(1.05);
 }
 
-.faq-item {
-  padding: 20px;
-}
 
 
-.faq-item button {
-  text-align: left;
-}
+
+
 .faq-question {
   background-color: transparent;
   border: none;
