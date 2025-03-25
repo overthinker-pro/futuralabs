@@ -1279,6 +1279,9 @@ select option {
   padding: 20px;
 }
 
+.faq-qn {
+  border: 5px solid yellow;
+}
 
 .faq-item button {
   text-align: left;
