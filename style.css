@@ -348,6 +348,10 @@ nav ul li:hover {
   text-align: center;
 }
 
+.ab-title {
+  font-size: 14px;
+}
+
 .ab-head {
   font-size: 30px;
   color: #5a2d82;
@@ -487,6 +491,7 @@ nav ul li:hover {
 }
 
 .spec-title {
+  font-size: 14px;
   margin: 50px 0 0 0;
 }
 
@@ -628,6 +633,7 @@ nav ul li:hover {
 }
 
 .process-title {
+  font-size: 14px;
   color: #e3e3e3;
   margin: 50px 0 5px 0;
 }
@@ -767,6 +773,7 @@ nav ul li:hover {
 }
 
 .plc2-title {
+  font-size: 14px;
   margin-top: 25px;
 }
 
@@ -1007,6 +1014,7 @@ nav ul li:hover {
 }
 
 .testimonials-title {
+  font-size: 14px;
   font-weight: 500;
   margin: 20px 0 0 0;
 }
@@ -1137,6 +1145,7 @@ nav ul li:hover {
   text-align: center;
 }
 .enquiry-title {
+  font-size: 14px;
   font-weight: 500;
   color: #dedede;
   margin: 40px 0 2px 0;
@@ -1262,6 +1271,7 @@ select option {
   text-align: center;
 }
 .faq-title {
+  font-size: 14px;
   font-weight: 500;
   margin: 70px 0 10px 0;
 }
