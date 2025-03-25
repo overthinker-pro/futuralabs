@@ -1253,6 +1253,10 @@ select option {
   align-items: center;
 }
 
+.faq-contents {
+  margin-bottom: 50px;
+}
+
 /* faq title and heading part */
 .faq-texts {
   text-align: center;
@@ -1358,15 +1362,7 @@ select option {
   .faq-qn {
     max-width: 900px;
   }
-  .faq-image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   .faq-image {
     max-width: 300px;
   }
 }
-
-/* reference areas */
