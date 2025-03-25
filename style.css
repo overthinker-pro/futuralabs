@@ -1385,3 +1385,36 @@ select option {
     max-width: 300px;
   }
 }
+
+
+/* //////////////// */
+/* Footer / Section */
+/* //////////////// */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #341756;
+}
+
+.footer-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* reference areas */
+.footer-logo {
+  max-width: 180px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-logo:hover {
+  transform: scale(1.03);
+}
+
+.loc1-title {
+  color: white;
+}
