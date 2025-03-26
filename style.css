@@ -1391,3 +1391,10 @@ select option {
 .conclusion {
   background-color: #381559;
 }
+
+
+
+/* reference areas */
+.conc-logo {
+  max-width: 200px;
+}
