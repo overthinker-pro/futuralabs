@@ -1392,6 +1392,13 @@ select option {
   background-color: #381559;
 }
 
+.conclusion-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+}
+
 
 
 /* reference areas */
