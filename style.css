@@ -1392,21 +1392,10 @@ select option {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0;
+  padding: 40px 0;
   background-color: #381559;
 }
 
-.conclusion-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid wheat;
-  margin: 30px 0 0 0;
-}
-
-
-
-/* reference areas */
 .conc-logo {
   max-width: 180px;
 }
@@ -1417,23 +1406,58 @@ select option {
   align-items: center;
   text-align: center;
   line-height: 25px;
-  background-color: green;
   margin-top: 20px;
 }
 
-.location1 p {
+.location1 p,
+.location2 p {
   color: white;
   font-size: 16px;
+  margin: 5px 10px;
 }
 
-.location1 i {
+.location1 i,
+.location2 i {
   color: #eba328;
 }
 
+/* limiting the location container's width while in tablet screen */
+@media (min-width: 600px) {
+  .location1,
+  .location2 {
+    max-width: 400px;
+  }
+}
 
+.divider {
+  width: 90%;
+  margin: 30px 0;
+}
 
-@media (min-width: 900px) {
+.location2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 25px;
+}
+
+/* conclusion page responsiveness in bigger screens */
+@media (min-width: 1100px) {
+  .conclusion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+  .location1,
+  .location2 {
+    max-width: 450px;
+  }
   .location1 {
-    max-width: 600px;
+    margin-top: 0;
+  }
+  .divider {
+    display: none;
   }
 }
