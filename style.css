@@ -1396,6 +1396,14 @@ select option {
   background-color: #381559;
 }
 
+.conclusion-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* reference */
+  background-color: #030336;
+}
+
 .conc-logo {
   max-width: 180px;
 }
@@ -1444,7 +1452,7 @@ select option {
 
 /* conclusion page responsiveness in bigger screens */
 @media (min-width: 1100px) {
-  .conclusion {
+  .conclusion-contents {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1460,4 +1468,36 @@ select option {
   .divider {
     display: none;
   }
+}
+
+/* conclusion part divider */
+.conc-divider {
+  width: 90%;
+  margin: 30px 0;
+}
+
+
+
+/* quick links, courses, social links */
+.conclusion-details,
+.quick-links,
+.courses,
+.socials {
+  text-align: center;
+}
+
+.details-heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: #e7e7e7;
+}
+
+
+
+
+
+/* reference */
+.socials i {
+  font-size: 25px;
+  color: wheat;
 }
